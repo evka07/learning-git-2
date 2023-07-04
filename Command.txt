@@ -1,0 +1,38 @@
+admin@MacAdmin learning-git-2 % npm exec html-validate index.html
+
+/Users/admin/Desktop/Projects/learning-git-2/index.html
+  15:4  error  <h5> element is not permitted as content under <h1>                           element-permitted-content
+  16:2  error  Mismatched close-tag, expected '</h1>' but found '</div>'                     close-order
+  56:2  error  Mismatched close-tag, expected '</div>' but found '</body>'                   close-order
+  57:2  error  Mismatched close-tag, expected '</body>' but found '</html>'                  close-order
+  57:8  error  Missing close-tag, expected '</html>' but document ended before it was found  close-order
+
+✖ 5 problems (5 errors, 0 warnings)
+
+More information:
+  https://html-validate.org/rules/element-permitted-content.html
+  https://html-validate.org/rules/close-order.html
+
+admin@MacAdmin learning-git-2 % npm run validate-html            
+
+> learning-git-2@1.0.0 validate-html
+> html-validate index.html
+
+
+/Users/admin/Desktop/Projects/learning-git-2/index.html
+  16:4  error  <h5> element is not permitted as content under <h1>                           element-permitted-content
+  17:2  error  Mismatched close-tag, expected '</h1>' but found '</div>'                     close-order
+  57:2  error  Mismatched close-tag, expected '</div>' but found '</body>'                   close-order
+  58:2  error  Mismatched close-tag, expected '</body>' but found '</html>'                  close-order
+  58:8  error  Missing close-tag, expected '</html>' but document ended before it was found  close-order
+
+✖ 5 problems (5 errors, 0 warnings)
+
+More information:
+  https://html-validate.org/rules/element-permitted-content.html
+  https://html-validate.org/rules/close-order.html
+
+admin@MacAdmin learning-git-2 % npm run validate-html
+
+> learning-git-2@1.0.0 validate-html
+> html-validate index.html
